@@ -1,0 +1,3 @@
+docker run --name Maquina3 -e MYSQL_ROOT_PASSWORD=1 -d mysql:latest
+
+docker exec -it Maquina3 mysql -p
